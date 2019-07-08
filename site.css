@@ -1,0 +1,121 @@
+h1
+{
+	color: #EE0011;
+	text-align: center;
+	font-size: 70px;
+}
+
+body
+{
+	max-width: 1200px;
+	width: 100%;
+	margin: auto;
+}
+
+h2
+{
+	color: rgb(253,253,0);
+	font-size: 50px;
+	text-align: center;
+}
+
+figure
+{
+	max-width: 350px;
+	max-height: 250px;
+}
+
+figure img
+{
+	width: 100%;
+	height: 100%;
+}
+
+.fig figcaption
+{
+	height: 50px;
+	text-align: center;
+}
+
+.global
+{
+	max-width: 1200px;
+	margin: 100px;
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+}
+
+.fig
+{
+	color: rgb(250,250,70);
+	max-width: 1200px;
+	margin: auto;
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+}
+
+body
+{
+	background-image: url("img/background.jpg");
+	background-size: cover;
+}
+
+.navigation_primaire
+{
+	max-width: 800px;
+	margin: auto;
+}
+
+.navigation_primaire ul
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+.navigation_primaire ul li
+{
+	color: white;
+	list-style-type: none;
+}
+
+.navigation_primaire ul li a
+{
+	color: white;
+	text-decoration: none;
+}
+
+div.polaroid
+{
+	width: 20%;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 25px;
+}
+
+div.discord_text
+{
+	text-align: center;
+	padding: 10px 20px;
+}
+
+div.discord
+{
+	width: 50%;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 25px;
+}
+
+.discord
+{
+	max-width: 400px;
+	margin: auto;
+}
+
+div.container
+{
+	text-align: center;
+	padding: 10px 20px;
+}
